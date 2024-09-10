@@ -39,4 +39,17 @@
                                HorizontalAlignment="Center" 
                                VerticalAlignment="Top" 
                                Margin="0,20,0,0"/>
+                    <!-- Claim List -->
+                    <ListView Name="claimListView" VerticalAlignment="Top" Margin="10,60,10,10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Claim ID" Width="100" DisplayMemberBinding="{Binding ClaimId}" />
+                                <GridViewColumn Header="Date Submitted" Width="150" DisplayMemberBinding="{Binding DateSubmitted}" />
+                                <GridViewColumn Header="Hours Worked" Width="100" DisplayMemberBinding="{Binding HoursWorked}" />
+                                <GridViewColumn Header="Status" Width="150" DisplayMemberBinding="{Binding Status}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
 </Window>
