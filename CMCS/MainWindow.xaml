@@ -52,4 +52,13 @@
                     </ListView>
                 </Grid>
             </TabItem>
+            <!-- Tab for Claim Approval (Programme Coordinators / Academic Managers) -->
+            <TabItem Header="Approve Claims">
+                <Grid>
+                    <TextBlock Text="Verify and Approve Claims" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Top" 
+                               Margin="0,20,0,0"/>
 </Window>
