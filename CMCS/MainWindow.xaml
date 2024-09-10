@@ -72,4 +72,14 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
+                    <!-- Approve/Reject buttons -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30">
+                        <Button Content="Approve" Width="100" Margin="10" Click="ApproveClaim_Click"/>
+                        <Button Content="Reject" Width="100" Margin="10" Click="RejectClaim_Click"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
 </Window>
+
