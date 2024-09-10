@@ -30,4 +30,13 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
+            <!-- Tab for Claim Status Tracking -->
+            <TabItem Header="Claim Status">
+                <Grid>
+                    <TextBlock Text="Claim Status" 
+                               FontSize="20" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Top" 
+                               Margin="0,20,0,0"/>
 </Window>
