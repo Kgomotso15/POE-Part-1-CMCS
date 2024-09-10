@@ -61,4 +61,15 @@
                                HorizontalAlignment="Center" 
                                VerticalAlignment="Top" 
                                Margin="0,20,0,0"/>
+                    <!-- Claim List for Approval -->
+                    <ListView Name="claimApprovalListView" VerticalAlignment="Top" Margin="10,60,10,100">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Claim ID" Width="100" DisplayMemberBinding="{Binding ClaimId}" />
+                                <GridViewColumn Header="Lecturer" Width="150" DisplayMemberBinding="{Binding LecturerName}" />
+                                <GridViewColumn Header="Hours Worked" Width="100" DisplayMemberBinding="{Binding HoursWorked}" />
+                                <GridViewColumn Header="Status" Width="150" DisplayMemberBinding="{Binding Status}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
 </Window>
